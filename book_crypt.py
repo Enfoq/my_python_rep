@@ -5,7 +5,7 @@
 import time, sys, os
 import transposition_cipher as cipher
 
-"""MAIN function that will encrypt and decrypt file, that must be in that folder like a scrypt"""
+"""MAIN function that will encrypt and decrypt file, that must be in that folder like a script"""
 def main():
 	mode = input("Enter (E) to encrypt or (D) to decrypt: ")
 	if mode.upper() == 'E':
@@ -70,7 +70,9 @@ def save_encrypted_File(encrypted_file):
 #
 
 
-""" Next functions are for decrypting our file. And also you can complain original file with this, if you want (those lines are commented)"""
+""" Next functions are for decrypting our file. 
+And also you can complain original file with this, if you want (those lines are commented)
+"""
 # Choose file to decrypt
 def file_to_decrypt():
 	active_D = True
