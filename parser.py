@@ -32,7 +32,7 @@ def parse_qiwi(html):
 	for item in currency_list:
 		if 'UAH' in item.text:
 			prices.append(item.text.split())
-	#NOT THIS LIST WILL KEEP ONLY NUMBERS
+	#NOW THIS LIST WILL KEEP ONLY NUMBERS
 	formated_prices = []
 	for price in prices:
 		formated_prices.append(float(price[0]))
