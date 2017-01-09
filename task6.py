@@ -1,5 +1,5 @@
 import time, random
-"""It shows difference between 2 variations of deleting elements from massive
+"""It shows difference between 2 variations of deleting elements (in this case its zeroes) from massive
 """
 print("-----WHILE variation\n")
 massive = [random.randrange(-5,10) for _ in range(1000)]
