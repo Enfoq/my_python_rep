@@ -1,5 +1,4 @@
 # Its a soft that can encrypt text files with transition cipher
-# by Kane =)
 #
 
 import time, sys, os
